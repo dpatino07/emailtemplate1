@@ -35,6 +35,26 @@ a {
 
     &:hover {
         opacity: 1;
+        cursor: pointer;
+    }
+}
+
+.btn-alt {
+    background: #161616;
+    color: #ff0000;
+    border: 1px solid #ff0000;
+    width: 30%;
+    text-decoration: none;
+    padding: 10px 14px;
+    border-radius: 3px;
+    letter-spacing: 2px;
+    font-weight: 600;
+    margin-top: 2%;
+    opacity: 0.85;
+
+    &:hover {
+        opacity: 1;
+        cursor: pointer;
     }
 }
 
